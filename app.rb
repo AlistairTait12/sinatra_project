@@ -9,5 +9,6 @@ get '/another' do
 end
 
 get '/cat' do
+  @name = ['Monty', 'Jasper', 'Clive'].sample
   erb(:index)
 end
